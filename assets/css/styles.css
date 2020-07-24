@@ -27,7 +27,6 @@
 .accordion-wrapper > .accordion-item > button.active::before { 
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
 }
