@@ -1,0 +1,44 @@
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.accordion-wrapper {
+  background-color: #fafafa;
+}
+
+.accordion-wrapper > .accordion-item > button {
+  width: 100%;
+  border: 0;
+  text-align: left;
+  padding: 15px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+}
+
+.accordion-wrapper > .accordion-item > button::before {
+  content: '\203A';
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.accordion-wrapper > .accordion-item > button.active::before { 
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-wrapper > .accordion-item > .accordion-content {
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 16px;
+  display: none;
+}
+
+.accordion-item > .accordion-content.active {
+   display: block;
+}
