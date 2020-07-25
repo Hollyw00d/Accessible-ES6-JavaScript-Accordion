@@ -1,0 +1,27 @@
+{
+  "name": "accessible-es6-javascript-accordion",
+  "version": "1.0.0",
+  "description": "- See an example of accessible ES5 JavaScript accordions (transpiled from ES6).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hollyw00d/Accessible-ES6-JavaScript-Accordion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hollyw00d/Accessible-ES6-JavaScript-Accordion/issues"
+  },
+  "homepage": "https://github.com/Hollyw00d/Accessible-ES6-JavaScript-Accordion#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-preset-minify": "^0.5.1",
+    "core-js": "^3.6.5"
+  }
+}
