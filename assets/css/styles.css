@@ -25,7 +25,6 @@
 }
 
 .accordion-wrapper > .accordion-item > button.active::before { 
-  /* -ms-transform: rotate(90deg); */
   transform: rotate(90deg);
   align-items: center;
 }
